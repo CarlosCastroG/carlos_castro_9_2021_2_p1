@@ -10,13 +10,10 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  List _ImageList = [];
-
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Material App',
+      title: 'Harry Potter Characters',
       home: Scaffold(
         appBar: AppBar(
           title: Text('Material App Bar'),
