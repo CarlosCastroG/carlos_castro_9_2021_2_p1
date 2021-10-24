@@ -1,6 +1,7 @@
 // ignore_for_file: unused_field
 
 import 'package:flutter/material.dart';
+import 'package:harry_potter_api_app/screens/main_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,17 +14,8 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Harry Potter Characters',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Material App Bar'),
-        ),
-        body: Center(
-          child: Container(
-            child: Text('Hello World'),
-          ),
-        ),
-      ),
+      title: 'Harry Potter',
+      home: MainScreen(),
     );
   }
 }
